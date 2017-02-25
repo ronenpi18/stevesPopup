@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fail</title>
+    <script>
+        var attempt = 3;
+        attempt --;//Decrementing by one
+        document.getElementById("fails").innerHTML = "You left "+attempt
+
+        if( attempt == 0){
+            document.getElementById("username").disabled = true;
+            document.getElementById("password").disabled = true;
+            document.getElementById("submit").disabled = true;
+        }
+    </script>
+</head>
+<body>
+<p id="fails">hey</p>
+
+</body>
+</html>

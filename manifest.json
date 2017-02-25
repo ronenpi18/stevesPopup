@@ -1,0 +1,25 @@
+{
+  "name": "DoCrypt",
+  "version": "1.0",
+  "description": "A browser app that encrypts files",
+  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+  "permissions": [
+    "cookies",
+    "history",
+    "notifications",
+    "tabs",
+    "https://ajax.googleapis.com"
+
+
+  ],
+  "browser_action": {
+    "default_title": "DoCrypt",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "popup_function": "popup.js"
+
+
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
